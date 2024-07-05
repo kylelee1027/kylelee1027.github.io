@@ -8,9 +8,9 @@ export function Home() {
   return (
     <>
         <div className="container mx-auto my-32">
-            <div className="flex inline mt-20 grid grid-cols-2 ml-12">
+            <div className="flex inline mt-20 grid grid-cols-2">
                 <div className="grid-rows-2">
-                    <h1 className="flex-inline text-3xl font-bold"> <Typewriter text="Hi I'm Kyle and I study Computer Science" delay={50} /></h1>
+                    <h1 className="flex-inline text-3xl font-bold"> <Typewriter text="Hi I'm Kyle and I study Computer Science" delay={30} /></h1>
                     <div className="mt-12 text-slate-600">I am an aspiring full-stack developer with a passion for creating intuitive and insightful web and mobile apps.
                         Currently, I am pursuing an BS in Computer Science at the University of Michigan (Go Blue!) </div>
                     <div className="mt-4 text-slate-600">With coursework spanning from the essential data structures and algorithms to complex topics such as artificial intelligence and web systems, 

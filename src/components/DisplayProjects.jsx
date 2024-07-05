@@ -6,10 +6,11 @@ import { SiMongodb } from "react-icons/si";
 import jsLogo from "../assets/js.svg";
 import swiftLogo from "../assets/swift.svg";
 import firebaseLogo from "../assets/firebase.svg";
+import cplusLogo from "../assets/cplus.svg";
 export function DisplayProjects() {
   return (
-    <div className="container mx-auto mt-48">
-        <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-y-16 gap-x-8">
+    <div className="container mx-auto">
+        <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-y-8 gap-x-8">
             <a target="_blank" rel="noopener" href="https://github.com/kylelee1027/Books-Read-Database" className="group border-8 border-transparent transition-colors duration-300 ease-in-out hover:bg-slate-100 rounded-2xl">
                 <div className="container space-y-3 mx-auto">
                     <div className="flex gap-x-3 my-auto">
@@ -50,7 +51,22 @@ export function DisplayProjects() {
                 <div className="text-slate-600">An Instagram Clone using Flask to handle login authentication and a RESTful API to communicate with a SQLite database. Frontend served using React and Jinja2 templating.</div>
                 <div className="italic text-slate-600">School Project</div>
             </div>
-
+            <div className="container space-y-3 mx-auto">
+                <div className="flex gap-x-3">
+                    <img className="w-8 h-8"src={pythonLogo} alt="Python"/>
+                </div>
+                <div className="font-bold">MapReduce Search Engine</div>
+                <div className="text-slate-600">A scalable search engine that utilizes tf-idf, PageRank, and parallel data processing with MapReduce. Used Service-Oriented Architecture to scale dynamic pages and web search.</div>
+                <div className="italic text-slate-600">School Project</div>
+            </div>
+            <div className="container space-y-3 mx-auto">
+                <div className="flex gap-x-3">
+                    <img className="w-8 h-8"src={cplusLogo} alt="C++"/>
+                </div>
+                <div className="font-bold">Stock Market Simulator</div>
+                <div className="text-slate-600">Developed a streaming algorithm that makes optimal trades in real time in a stock market simulation.</div>
+                <div className="italic text-slate-600">School Project</div>
+            </div>
         </div>
     </div>
 

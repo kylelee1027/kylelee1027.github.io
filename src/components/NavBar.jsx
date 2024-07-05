@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export function NavBar() {
   return (
-    <div className="w-full mx-auto my-6 font-sans text-sm ">
-        <header className="fixed top-6 w-full">
+    <div className="w-full mx-auto my-6 font-sans text-sm">
+        <div className="fixed top-6 w-full">
             <nav className="flex justify-center">
                 <div className="rounded-2xl shadow-lg bg-white">
                     <ul className="inline-flex px-7 py-2 space-x-10">
@@ -14,7 +14,7 @@ export function NavBar() {
                     </ul>
                 </div>
             </nav>
-        </header>
+        </div>
 
     </div>
   )
